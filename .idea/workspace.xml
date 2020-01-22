@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.41-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-6.0.6-bin.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectToSqlDB">
+  <component name="RunManager" selected="Application.UnitTestConnectDB">
     <configuration name="ConnectToMongoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="databases.ConnectToMongoDB" />
       <module name="MidTermWeekDaysDecember2019" />
@@ -92,34 +90,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mysql-connector-java-8.0.17.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mySql/mysql-connector-java-8.0.17.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UnitTestingStringProblem" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTestConnectDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.UnitTestConnectDB" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.problems.*" />
+          <option name="PATTERN" value="databases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.problems" />
-      <option name="MAIN_CLASS_NAME" value="string.problems.UnitTestingStringProblem" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mysql-connector-java-8.0.17.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mySql/mysql-connector-java-8.0.17.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnitTestConnectDB" />
         <item itemvalue="Application.ConnectToSqlDB" />
         <item itemvalue="JAR Application.mysql-connector-java-8.0.17.jar" />
         <item itemvalue="Application.JsonReaderUtil" />
         <item itemvalue="Application.ConnectToMongoDB" />
-        <item itemvalue="TestNG.UnitTestingStringProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -175,22 +169,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="838" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579492834291" />
-    <state width="1491" height="2" key="GridCell.Tab.0.bottom" timestamp="1579729413549">
+    <state width="1491" height="111" key="GridCell.Tab.0.bottom" timestamp="1579729632416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579729413549" />
-    <state width="1491" height="2" key="GridCell.Tab.0.center" timestamp="1579729413549">
+    <state width="1491" height="111" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579729632416" />
+    <state width="1491" height="111" key="GridCell.Tab.0.center" timestamp="1579729632416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579729413549" />
-    <state width="1491" height="2" key="GridCell.Tab.0.left" timestamp="1579729413549">
+    <state width="1491" height="111" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579729632416" />
+    <state width="1491" height="111" key="GridCell.Tab.0.left" timestamp="1579729632416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579729413549" />
-    <state width="1491" height="2" key="GridCell.Tab.0.right" timestamp="1579729413549">
+    <state width="1491" height="111" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579729632416" />
+    <state width="1491" height="111" key="GridCell.Tab.0.right" timestamp="1579729632416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579729413549" />
+    <state width="1491" height="111" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579729632416" />
     <state width="1491" height="260" key="GridCell.Tab.1.bottom" timestamp="1579494568367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
