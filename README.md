@@ -1,0 +1,1 @@
+# MidTermWeekDaysDecember2019
